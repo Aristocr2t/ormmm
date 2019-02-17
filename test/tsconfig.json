@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "lib": [
+      "es6",
+      "es7"
+    ],
+    "module": "commonjs",
+    "outDir": "dist",
+    "rootDir": "src",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "plugins": [
+      { "name": "tslint-language-service" }
+    ],
+    "target": "es6",
+    "typeRoots": [
+      "../node_modules/@types"
+    ],
+    "types": [
+      "reflect-metadata"
+    ]
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "../node_modules",
+    "**/*.spec.ts"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "ormmm",
+  "version": "0.0.0",
+  "description": "Simple frontend ORM",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "rebuild": "npm run clean && npm run build",
+    "build": "tsc --diagnostics",
+    "clean": "rm -rf dist/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.1"
+  },
+  "keywords": [
+    "frontend",
+    "orm"
+  ],
+  "author": {
+    "name": "Shamil Sultanov",
+    "email": "shamil.amirovich@gmail.com",
+    "url": "https://www.aristocr2t.ru/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aristocr2t/ormmm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aristocr2t/ormmm/issues"
+  },
+  "homepage": "https://github.com/Aristocr2t/ormmm#readme"
+}
